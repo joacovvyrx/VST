@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: windows-2022
     steps:
       - uses: actions/checkout@v4
         with:
@@ -22,4 +22,3 @@ jobs:
         with:
           name: VoxChoir-Windows-VST3
           path: VoxChoir-Windows-VST3.zip
-        
